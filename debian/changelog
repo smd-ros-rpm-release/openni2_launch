@@ -1,0 +1,14 @@
+ros-hydro-openni2-launch (0.1.1-0precise) precise; urgency=high
+
+  * Properly namespace the nodelet manager
+
+ -- Michael Ferguson <developers@unboundedrobotics.com>  Wed, 25 Sep 2013 07:00:00 -0000
+
+ros-hydro-openni2-launch (0.1.0-0precise) precise; urgency=high
+
+  * First release
+  * This package is a thin wrapper around rgbd_launch
+
+ -- Michael Ferguson <developers@unboundedrobotics.com>  Tue, 10 Sep 2013 07:00:00 -0000
+
+
