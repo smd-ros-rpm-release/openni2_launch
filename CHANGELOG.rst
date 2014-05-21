@@ -2,13 +2,12 @@
 Changelog for package openni2_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.3 (2014-05-07)
+0.2.0 (2014-05-20)
 ------------------
+* Remove machine arg, as it is not necessary.
 * Add tf_prefix same as openni
-* Fix issue `#9 <https://github.com/ros-drivers/openni2_launch/issues/9>`_
-  This way the defaults for depth processing are set apropriately for both
-  hardware and software registration.
-* Contributors: Libor Wagner, Mark Pitchless, Michael Ferguson
+* Defaults for depth processing are set apropriately for both hardware and software registration.
+* Contributors: Libor Wagner, Mark Pitchless, Michael Ferguson, Piyush Khandelwal
 
 0.1.2 (2013-09-30)
 ------------------
