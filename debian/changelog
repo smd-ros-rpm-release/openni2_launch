@@ -1,0 +1,29 @@
+ros-indigo-openni2-launch (0.2.0-0trusty) trusty; urgency=high
+
+  * Remove machine arg, as it is not necessary.
+  * Add tf_prefix same as openni
+  * Defaults for depth processing are set apropriately for both hardware and software registration.
+  * Contributors: Libor Wagner, Mark Pitchless, Michael Ferguson, Piyush Khandelwal
+
+ -- Michael Ferguson <developers@unboundedrobotics.com>  Tue, 20 May 2014 07:00:00 -0000
+
+ros-indigo-openni2-launch (0.1.2-0trusty) trusty; urgency=high
+
+  * Expose driver parameters. Note: depth_registration is now off by default.
+
+ -- Michael Ferguson <developers@unboundedrobotics.com>  Mon, 30 Sep 2013 07:00:00 -0000
+
+ros-indigo-openni2-launch (0.1.1-0trusty) trusty; urgency=high
+
+  * Properly namespace the nodelet manager
+
+ -- Michael Ferguson <developers@unboundedrobotics.com>  Wed, 25 Sep 2013 07:00:00 -0000
+
+ros-indigo-openni2-launch (0.1.0-0trusty) trusty; urgency=high
+
+  * First release
+  * This package is a thin wrapper around rgbd_launch
+
+ -- Michael Ferguson <developers@unboundedrobotics.com>  Tue, 10 Sep 2013 07:00:00 -0000
+
+
